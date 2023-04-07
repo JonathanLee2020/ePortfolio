@@ -1,16 +1,41 @@
 * {
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-.nav__link--list {
-    display: flex;
-}
+
 
 li {
     list-style: none;
 }
 
+/* NAVIGATION */
+
+nav {
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link {
+    margin: 0 12px;
+}
+
 a {
     text-decoration: none;
+}
+
+.profile {
+    width: 50px;
 }

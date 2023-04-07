@@ -11,6 +11,8 @@ li {
     list-style: none;
 }
 
+/* LANDING PAGE */
+
 /* NAVIGATION */
 
 nav {
@@ -32,10 +34,20 @@ nav {
     margin: 0 12px;
 }
 
+.nav__link--anchor {
+    text-decoration: 0;
+    color: #242424;
+    font-weight: 700;
+}
+
 a {
     text-decoration: none;
 }
 
 .profile {
     width: 50px;
+}
+
+.fa-adjust {
+    font-size: 20px;
 }

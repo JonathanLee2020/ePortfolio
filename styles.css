@@ -1,0 +1,16 @@
+* {
+    color: red;
+}
+
+
+.nav__link--list {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

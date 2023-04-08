@@ -29,6 +29,17 @@ section {
     color: navy !important;
 }
 
+.click {
+    transition: all 300 ms ease;
+}
+
+.click:hover {
+    transform: scale(1.1);
+}
+
+.click:active {
+    transform: scale(0.8);
+}
 /* LANDING PAGE */
 #landing-page {
     min-height: 100vh;
@@ -41,14 +52,33 @@ section {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
+    padding: 0 30px;
 }
 
 .header__para {
     font-size: 24px;
     line-height: 2;
+    max-width: 600px;
 }
 
+.social__list {
+    margin-top: 16px;
+    display: flex;
+}
 
+.social__link {
+    background-color: navy;
+    color: white; 
+    padding: 6px;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%; */
+}
 /* NAVIGATION */
 
 nav {
@@ -60,6 +90,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     height: 100px;
+    padding: 0 20px;
 }
 
 .nav__link--list {
@@ -84,6 +115,6 @@ a {
     width: 50px;
 }
 
-.fa-adjust {
+.fa-solid, .fa-brands{
     font-size: 20px;
 }

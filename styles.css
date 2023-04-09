@@ -79,6 +79,27 @@ section {
     align-content: center;
     border-radius: 50%; */
 }
+
+.mail__button i {
+    font-size: 32px;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+    
+    /* padding: 6px; */
+    background-color: black;
+    right: 40px;
+    bottom: 32px;
+    position: absolute;
+
+    border: none;
+}
 /* NAVIGATION */
 
 nav {

@@ -65,9 +65,9 @@ section {
     content: "";
     bottom: -3px;
     height: 3px;
-    width: 100%;
+    /* width: 100%; */
     background-color: black;
-    left: 0;
+    right: 0;
     position: absolute;
 }
 
@@ -75,6 +75,11 @@ section {
     left: 0;
     width: 100%;
 }
+
+/* .link__hover-effect:hover:after {
+    left: 0;
+    width: 100%;
+} */
 /* LANDING PAGE */
 #landing-page {
     min-height: 100vh;

@@ -200,6 +200,9 @@ a {
 
 .project__wrapper {
     position: relative;
+    border-radius: 20px;
+    box-shadow: 0 20px 80px black;
+    overflow: hidden;
 
 }
 

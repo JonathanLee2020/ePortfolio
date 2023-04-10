@@ -56,6 +56,25 @@ section {
 .click:active {
     transform: scale(0.8);
 }
+
+.link__hover-effect {
+    position: relative;
+}
+
+.link__hover-effect:after {
+    content: "";
+    bottom: -3px;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.link__hover-effect:hover:after {
+    left: 0;
+    width: 100%;
+}
 /* LANDING PAGE */
 #landing-page {
     min-height: 100vh;

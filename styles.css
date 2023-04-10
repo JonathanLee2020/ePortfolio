@@ -210,11 +210,18 @@ a {
 
 }
 
+.project__wrapper:hover .project__description{
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
 .project__description {
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 300ms, transform 450ms ease;
+    /* transform: translateY(-50%); */
     color: wheat;
     max-width: 550px;
 }
@@ -231,7 +238,10 @@ a {
 
 .project__description--para {
     margin: 16px 0;
+}
 
+.project__description--sub-title {
+    margin-top: 8px;
 }
 
 

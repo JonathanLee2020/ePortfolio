@@ -1,0 +1,16 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }

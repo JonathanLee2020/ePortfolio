@@ -92,12 +92,6 @@ section {
 
 
 
-
-
-/* .link__hover-effect:hover:after {
-    left: 0;
-    width: 100%;
-} */
 /* LANDING PAGE */
 #landing-page {
     min-height: 100vh;
@@ -244,6 +238,12 @@ a {
 
 .project__img {
     width: 100%;
+    transition: all 600ms ease;
+}
+
+.project:hover .project__img {
+    transform: scale(1.07);
+    filter: blur(5px);
 }
 
 .project__wrapper {

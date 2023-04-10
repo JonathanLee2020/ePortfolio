@@ -24,6 +24,7 @@ section {
 
 .container {
     padding: 50px 0;
+    width: 100%;
 }
 
 .row {
@@ -184,6 +185,7 @@ a {
 
 .profile {
     width: 50px;
+    border-radius: 50%;
 }
 
 .fa-solid, .fa-brands{
@@ -233,9 +235,7 @@ a {
     max-width: 550px;
 }
 
-.project__wrapper:hover .project__wrapper-background {
-    opacity: 0.7;
-}
+
 
 .project__description--title {
     font-size: 40px;
@@ -269,4 +269,35 @@ a {
     /* opacity: 0.7; */
     opacity: 0;
     transition: all 450ms ease;
+}
+
+.project__wrapper:hover .project__wrapper-background {
+    opacity: 0.7;
+}
+
+/* Footer */
+
+footer {
+    background-color: #242424;
+    color: antiquewhite;
+    display: flex;
+}
+
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__social--link, .footer__copyright {
+    color: wheat;
+}
+
+.footer__social--list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 20px 0;
 }

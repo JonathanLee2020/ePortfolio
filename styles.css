@@ -381,7 +381,7 @@ a {
 }
 
 .modal__overlay--loading {
-    background-color: green;
+    background-color: #242424;
     position: absolute;
     top: 0;
     left: 0;
@@ -394,7 +394,7 @@ a {
 }
 
 .modal__overlay--success {
-    background-color: lightgreen;
+    background-color: green;
     font-size: 40px;
     font-weight: 700;
     text-align: center;

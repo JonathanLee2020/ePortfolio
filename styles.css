@@ -347,6 +347,11 @@ a {
     background-color: transparent;
 }
 
+.form__submit:active {
+    border-color: navy;
+    color: navy;
+}
+
 /* Projects */
 .section__title {
     text-align: center;

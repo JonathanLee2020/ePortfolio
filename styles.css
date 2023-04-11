@@ -34,6 +34,11 @@ input, textarea {
     height: 40px;
 }
 
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
 .container {
     padding: 50px 0;
     width: 100%;
@@ -258,6 +263,7 @@ a {
 .modal__half {
     width: 50%;
     padding: 40px 72px;
+    justify-content: center;
 }
 
 .modal__about {
@@ -312,11 +318,27 @@ a {
 
 .modal__sub-title {
     margin: 12px 0 24px 0;
+    font-size: 14px;
 }
 
 .modal__para {
     margin-bottom: 12px;
     line-height: 1.75;
+}
+
+.form__item {
+    margin-bottom: 20px;
+}
+
+.form__submit {
+    background-color: navy;
+    border: 2px solid navy;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 240px;
+    padding: 12px 24px;
+    font-style: 20px;
 }
 
 /* Projects */

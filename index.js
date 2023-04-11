@@ -12,5 +12,6 @@
 // </script>
 
 function contact () {
+    event.preventDefault();
     console.log("it worked");
 }

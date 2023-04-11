@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://kit.fontawesome.com/3c5525aad7.js" crossorigin="anonymous"></script>
-    <title>Jonathan Lee ePortfolio</title
-        <script type="text/javascript"
+    <title>Jonathan Lee ePortfolio</title>
+    <script src = "index.js"></script>
+    <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
@@ -115,7 +116,7 @@
                 <h4 class="modal__sub-title  modal__sub-title--contact">
                     I'm currently open to new opportunities. I'm looking forward to hearing from you!
                 </h4>
-                <form id ="contact__form"action="">
+                <form id ="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label" for="name">Name</label>
                         <input class="input" name = "user_name"type="text" required></input>

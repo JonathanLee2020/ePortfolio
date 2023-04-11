@@ -78,6 +78,7 @@ input:focus, textarea:focus {
 
 .click {
     transition: all 300 ms ease;
+    cursor: pointer;
 }
 
 .click:hover {

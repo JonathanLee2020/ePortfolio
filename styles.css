@@ -32,11 +32,25 @@ input, textarea {
     border-left: 0;
     border-right: none;
     height: 40px;
+    transition: all 300ms ease;
 }
 
 textarea {
     resize: vertical;
     height: 100px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input:hover, textarea:hover {
+    border-color: white;
+}
+
+input:focus, textarea:focus {
+    border-color: navy;
 }
 
 .container {

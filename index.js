@@ -13,5 +13,16 @@
 
 function contact () {
     event.preventDefault();
-    console.log("it worked");
+    const loading = document.querySelector(".modal__overlay--loading");
+    const success = document.querySelector(".modal__overlay--success");
+    emailjs
+        .sendForm(
+            "service_xvi7dk6",
+            "template_2yn8mx5",
+            event.target,
+            "AFYPuaJKIMP26vHVm"
+
+        ).then(() => {
+            console.log("this worked again")
+        })
 }

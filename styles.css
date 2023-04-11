@@ -50,7 +50,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus {
-    border-color: navy;
+    border-color: lightskyblue;
 }
 
 .container {
@@ -278,6 +278,7 @@ a {
     width: 50%;
     padding: 40px 72px;
     justify-content: center;
+    position: relative;
 }
 
 .modal__about {
@@ -364,6 +365,14 @@ a {
 .form__submit:active {
     border-color: navy;
     color: navy;
+}
+
+.modal__overlay--loading {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 /* Projects */

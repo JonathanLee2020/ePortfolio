@@ -16,14 +16,19 @@ function contact () {
     const loading = document.querySelector(".modal__overlay--loading");
     const success = document.querySelector(".modal__overlay--success");
     loading.classList += " modal__overlay--visible"
-    emailjs
-        .sendForm(
-            "service_xvi7dk6",
-            "template_2yn8mx5",
-            event.target,
-            "AFYPuaJKIMP26vHVm"
-
-        ).then(() => {
-            console.log("this worked again")
-        })
+    setTimeout(() => {
+        loading.classList.remove("modal__overlay--visible");
+        success.classList += " modal__overlay--visible"
+    }, 1000)
 }
+    // emailjs
+//         .sendForm(
+//             "service_xvi7dk6",
+//             "template_2yn8mx5",
+//             event.target,
+//             "AFYPuaJKIMP26vHVm"
+
+//         ).then(() => {
+//             console.log("this worked again")
+//         })
+// }

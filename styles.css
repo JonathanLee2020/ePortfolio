@@ -53,6 +53,9 @@ input:focus, textarea:focus {
     border-color: lightskyblue;
 }
 
+
+
+
 .container {
     padding: 50px 0;
     width: 100%;
@@ -70,6 +73,10 @@ input:focus, textarea:focus {
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
+}
+
+.fa-solid, .fa-brands{
+    font-size: 20px;
 }
 
 .title--secondary, .highlight {
@@ -164,25 +171,26 @@ input:focus, textarea:focus {
     border-radius: 50%; */
 }
 
-.mail__button i {
-    font-size: 32px;
-
-    width: 70px;
-    height: 70px;
+.mail__button {
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
-
+    border: none;
+    background-color: black;
+    color: white;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    color: white;
-    
-    /* padding: 6px; */
-    background-color: black;
     right: 40px;
     bottom: 32px;
-    position: absolute;
+    position: fixed;
+    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
 
-    border: none;
+}
+
+.fa-envelope {
+    font-size: 32px;
+    size: 32px;
 }
 
 .scroll {
@@ -256,9 +264,7 @@ a {
     border-radius: 50%;
 }
 
-.fa-solid, .fa-brands{
-    font-size: 20px;
-}
+
 
 /* Modal */
 .modal {
@@ -269,10 +275,17 @@ a {
     width: 90%;
     max-width: 1100px;
     height: 700px;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    /* box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55); */
     border-radius: 20px;
     overflow: hidden;
     display: flex;
+    visibility: hidden;
+}
+
+.modal--open .modal {
+    z-index: 60;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    visibility: visible;
 }
 
 .modal__half {

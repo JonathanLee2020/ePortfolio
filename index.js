@@ -11,7 +11,9 @@
 //    })();
 // </script>
 
-function contact () {
+
+let isModalOpen = false;
+function contact (event) {
     event.preventDefault();
     const loading = document.querySelector(".modal__overlay--loading");
     const success = document.querySelector(".modal__overlay--success");
@@ -34,14 +36,24 @@ function contact () {
                 "the email service is temporarily unavailable. Please contact me directly on jonathanlee882@gmail.com"
             );
         })
+    }
+
+    
+    function toggleModal() {
+        if (isModalOpen) {
+            isModalOpen = false;
+            return document.body.classList.remove("modal--open");
+        }
+        isModalOpen = true;
+        document.body.classList += " modal--open";
+    }
 
 
 
-
-    loading.classList += " modal__overlay--visible"
-    setTimeout(() => {
-        loading.classList.remove("modal__overlay--visible");
-        success.classList += " modal__overlay--visible"
-    }, 1000)
-}
+//     loading.classList += " modal__overlay--visible"
+//     setTimeout(() => {
+//         loading.classList.remove("modal__overlay--visible");
+//         success.classList += " modal__overlay--visible"
+//     }, 1000)
+// }
     

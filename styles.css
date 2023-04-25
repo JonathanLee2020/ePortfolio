@@ -604,6 +604,8 @@ a {
 /* Footer */
 
 footer {
+    /* added pr so that shapes gop behind footer */
+    position: relative;
     background-color: #242424;
     color: antiquewhite;
     display: flex;
@@ -667,4 +669,57 @@ footer {
 .shape--8 {
     top: 80vh;
     left: 80vh;
+}
+
+/* f phones */
+@media (max-width: 768px) {
+    .title{
+        font-size: 80px;
+    }
+    .header__para {
+        font-size: 20px;
+    }
+    .modal {
+        top: 0;
+        left: 0;
+        transform: none;
+        height: auto;
+        width: 100%;
+        flex-direction: column-reverse;
+        border-radius: 0;
+    }
+    .modal__half {
+        width: 100%;
+    }
+    .project__description--para {
+        display: none;
+    }
+}
+
+/* small phones */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 52px;
+    }
+    .header__para {
+        font-size: 18px;
+    }
+    .nav__link:first-chold {
+        display: none;
+    }
+    .project__description--para {
+        display: none;
+    }
+    .project__description {
+        left: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+    }
+    .modal__half {
+        padding: 40px;
+    }
 }

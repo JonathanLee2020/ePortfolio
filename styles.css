@@ -84,7 +84,16 @@ input:focus, textarea:focus {
 }
 
 .title--secondary, .highlight {
-    color: navy !important;
+    color: #32de84 !important;
+}
+
+.social__link {
+    background-color: #32de84;
+    color: black;
+}
+
+.highlight--modal {
+    color: navy;
 }
 
 .click {
@@ -160,12 +169,12 @@ nav,
 }
 
 .dark-theme .highlight {
-    color: lightblue !important;
+    color: #32de84 !important;
 }
 
 .dark-theme .social__link {
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: #32de84;
 }
 
 .dark-theme .mail__button {
@@ -217,22 +226,22 @@ nav,
 
 .social__list {
     margin-top: 16px;
+    margin-bottom: 10px;
     display: flex;
 }
 
 .social__link {
-    background-color: navy;
-    color: white; 
+    color: white;
     padding: 6px;
     width: 32px;
     height: 32px;
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 12px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    border-radius: 50%; */
-}
+    align-items: center;
+    border-radius: 50%;
+  }
 
 .mail__button {
     width: 75px;
@@ -641,39 +650,39 @@ footer {
 }
 .shape--0 {
     top: 15vh;
-    left: 5vh;
+    left: 5vw;
 }
 .shape--1 {
     top: 15vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--2 {
     top: 15vh;
-    left: 80vh;
+    left: 80vw;
 }
 .shape--3 {
     top: 50vh;
-    left: 5vh;
+    left: 5vw;
 }
 .shape--4 {
     top: 50vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--5 {
     top: 50vh;
-    left: 80vh;
+    left: 80vw;
 }
 .shape--6 {
     top: 80vh;
-    left: 5vh;
+    left: 5vw;
 }
 .shape--7 {
     top: 80vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--8 {
     top: 80vh;
-    left: 80vh;
+    left: 80vw;
 }
 
 /* f phones */

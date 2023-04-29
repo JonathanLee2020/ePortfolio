@@ -137,6 +137,18 @@ input:focus, textarea:focus {
     transition: all 300ms ease;
 }
 
+.link__hover-effect--gold:after {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    height: 2px;
+    /* width: 100%; */
+     background-color: wheat; 
+    width: 0;
+    right: 0;
+    transition: all 300ms ease;
+}
+
 .link__hover-effect:hover:after {
     left: 0;
     width: 100%;

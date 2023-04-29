@@ -93,7 +93,7 @@ input:focus, textarea:focus {
 }
 
 .highlight--modal {
-    color: navy;
+    color: #32de84;
 }
 
 .click {
@@ -444,8 +444,9 @@ a {
 }
 
 .form__submit {
-    background-color: navy;
-    border: 2px solid navy;
+    background-color: #32de84;
+    border: 2px solid #32de84;
+    border-radius: 20px;
     color: white;
     font-weight: 700;
     width: 100%;

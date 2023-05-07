@@ -1,5 +1,4 @@
 let isModalOpen = false;
-let contrastToggle = false;
 const scaleFactor = 1 / 20;
 
 function moveBackground(event) {
@@ -14,6 +13,10 @@ function moveBackground(event) {
     shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`
   }
 }
+
+let contrastToggle = false;
+document.body.classList += " hello";
+
 
 function toggleContrast() {
   contrastToggle = !contrastToggle;

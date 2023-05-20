@@ -402,7 +402,7 @@ a {
     flex-wrap: wrap;
 }
 .modal__language {
-    width: 33%;
+    width: 25%;
     padding: 16px;
     position: relative;
     display: flex;

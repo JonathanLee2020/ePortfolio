@@ -547,6 +547,9 @@ a {
 
 }
 
+.project__wrapper {
+}
+
 .project__img {
     width: 100%;
     transition: all 600ms ease;
@@ -562,6 +565,7 @@ a {
     border-radius: 20px;
     box-shadow: 0 20px 80px black;
     overflow: hidden;
+    margin-bottom: 48px;
 
 }
 

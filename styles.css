@@ -781,7 +781,7 @@ export const Intro = () => {
     flex-wrap: wrap;
 }
 
-.blueFont {
+.greenFont{
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -790,14 +790,10 @@ export const Intro = () => {
     -moz-text-fill-color: transparent;
 }
 
-.blueFont {
+.greenFont {
     background-image: linear-gradient(#32de84 25%, #32de84 100%);
     32de84
     rgb(255, 28, 247)
-}
-
-.yellowFont {
-    background-image: linear-gradient(#F8EF42 25%, #ebe33c 100%);
 }
 
 .hello, .name, .fullstack, .engineer, .hey {
@@ -805,8 +801,8 @@ export const Intro = () => {
     position: relative;
 }
 
- .name::before, .fullstack::before, .engineer::before,
- .name::after, .fullstack::after, .engineer::after{
+ .name::before, 
+ .name::after {
     content: '';
     position: absolute;
     top: 0;
@@ -815,17 +811,9 @@ export const Intro = () => {
     left: 0;
 }
 
-
-
-
-
-
-
-
-
 .name::before {
     background-color: rgb(245, 245, 245);
-    animation: cursor 0.84s steps(12) 4.66s forwards; 
+    animation: cursor 0.84s steps(12) 2.66s forwards; 
 }
 
 .name::after {
@@ -833,10 +821,10 @@ export const Intro = () => {
     background: black;
     visibility: hidden;
     animation: 
-        cursor 0.84s steps(12) 4.66s forwards, 
+        cursor 0.84s steps(12) 2.66s forwards, 
         blink 1s linear infinite,
-        remove 6.5s step-end forwards,
-        hidden 0s linear 4.66s forwards;
+        remove 4.5s step-end forwards,
+        hidden 0s linear 2.66s forwards;
 }
 
 @keyframes cursor {

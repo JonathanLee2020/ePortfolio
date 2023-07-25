@@ -670,6 +670,7 @@ footer {
     animation-fill-mode: forwards;
     opacity: 0;
   }
+
   
   @keyframes fadein {
     from {opacity: 0;}
@@ -680,6 +681,7 @@ footer {
     position: absolute;
 }
 .shape--0 {
+    /* animation-name: fadeleft; */
     top: 15vh;
     left: 5vw;
 }

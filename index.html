@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/3c5525aad7.js" crossorigin="anonymous"></script>
     <title>Jonathan Lee ePortfolio</title>
     <script src = "index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
@@ -66,8 +67,12 @@
                 <h1 class="title highlight">
                     <span class="greenFont name">I'm Jonathan</span>
                 </h1>
-                <p class="header__para">
-                    I am a <b class="highlight">Fullstack Developer</b> with expertise in creating visually stunning and user-friendly web applications using the latest technologies and tools.
+                <p class="header__para" data-aos="fade-up" 
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-delay="2500"
+                >
+                    I am a <b class="highlight" >Fullstack Developer</b> with expertise in creating visually stunning and user-friendly web applications using the latest technologies and tools.
                     <br>
                     Here's a bit more <b class="highlight click" onclick="toggleModal()">about me</b>
                 </p>
@@ -190,7 +195,7 @@
                                     Ultraverse NFT Marketplace is a cutting-edge platform that offers a seamless experience for exploring and acquiring Non-Fungible Tokens (NFTs). Built with React, alongside animation and carousel libraries, users can Discover popular, new, and top-selling NFTs, explore diverse collections, and access detailed information about pricing, ownership, and creators.
                                     </p>
                                     <div class="project__description--links">
-                                        <a href="https://github.com/JonathanLee2020/jonathan-internship" class="project__description--link">
+                                        <a href="https://github.com/JonathanLee2020/jonathan-internship" class="project__description--link" target="_blank">
                                             <i class="fa-brands fa-github"></i>
                                         </a>
                                         <a href="https://jonathan-internship-phi.vercel.app/" class="project__description--link" target="_blank">
@@ -310,5 +315,9 @@
         </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

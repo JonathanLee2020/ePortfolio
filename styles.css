@@ -756,7 +756,7 @@ footer {
 }
 
 
-export const Intro = () => {
+/* export const Intro = () => {
     return (
       <div className={styles.container}>
         
@@ -768,7 +768,7 @@ export const Intro = () => {
         </h1>
       </div>
     )
-  }
+  } */
 
 
 
@@ -813,7 +813,8 @@ export const Intro = () => {
 
 .name::before {
     background-color: rgb(245, 245, 245);
-    animation: cursor 0.84s steps(12) 2.66s forwards; 
+    animation: cursor 0.84s steps(12) 1.66s forwards; 
+    /* animation: cursor 0.84s steps(12) 2.66s forwards;  */
 }
 
 .name::after {
@@ -821,10 +822,10 @@ export const Intro = () => {
     background: black;
     visibility: hidden;
     animation: 
-        cursor 0.84s steps(12) 2.66s forwards, 
+        cursor 0.84s steps(12) 1.66s forwards, 
         blink 1s linear infinite,
-        remove 4.5s step-end forwards,
-        hidden 0s linear 2.66s forwards;
+        remove 2.5s step-end forwards,
+        hidden 0s linear 1.66s forwards;
 }
 
 @keyframes cursor {
@@ -862,7 +863,7 @@ export const Intro = () => {
 
 .jon::before {
     background-color: rgb(245, 245, 245);
-    animation: cursor 0.5s steps(3) 1.5s forwards; 
+    animation: cursor 0.5s steps(3) 0.5s forwards; 
 }
 
 .jon::after {
@@ -870,10 +871,12 @@ export const Intro = () => {
     background: black;
     visibility: hidden;
     animation: 
-        cursor 0.5s steps(3) 1.5s forwards, 
+        cursor 0.5s steps(3) 0.5s forwards, 
+        /* cursor 0.5s steps(3) 1.5s forwards,  */
         blink 1s linear infinite,
-        remove 2.66s step-end forwards,
-        hidden 0s linear 1.5s forwards;
+        remove 1.5s step-end forwards,
+        /* remove 2.66s step-end forwards, */
+        hidden 0s linear 0.5s forwards;
 }
 .jon {
     white-space: nowrap;

@@ -15,7 +15,7 @@ function moveBackground(event) {
 }
 
 let contrastToggle = false;
-document.body.classList += " hello";
+// document.body.classList += " hello";
 
 
 function toggleContrast() {

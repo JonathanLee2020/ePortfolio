@@ -671,6 +671,14 @@ footer {
     opacity: 0;
   }
 
+/* .social__list {
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+} */
+
   
   @keyframes fadein {
     from {opacity: 0;}

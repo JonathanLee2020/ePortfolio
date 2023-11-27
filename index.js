@@ -17,8 +17,6 @@ function moveBackground(event) {
 
 
 let contrastToggle = false;
-// document.body.classList += " hello";
-
 
 function toggleContrast() {
   contrastToggle = !contrastToggle;
@@ -36,12 +34,8 @@ function contact(event) {
   const success = document.querySelector(".modal__overlay--success");
   loading.classList += " modal__overlay--visible";
   emailjs
-    .sendForm(
-      "service_80ih0if",
-      "template_d9refyl",
-      event.target,
-      "user_K1PoFs8pB2YVWStDxrUls"
-    )
+    .
+    sendForm('service_di9e90y', 'template_2yn8mx5', event.target, 'AFYPuaJKIMP26vHVm')
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";

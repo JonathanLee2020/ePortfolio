@@ -9,7 +9,7 @@ function moveBackground(event) {
   for (let i = 0; i < shapes.length; ++i) {
     const isOdd = i % 2 !== 0;
     const boolInt = isOdd ? -1 : 1;
-    console.log(boolInt)
+    // console.log(boolInt)
     // Added rotate after tutorial
     shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`
   }
@@ -46,10 +46,11 @@ function contact(event) {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
     })
-    .catch(() => {
+    .catch((error) => {
+      console.log(error)
       loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly on email@email.com"
+        "The email service is temporarily unavailable. Please contact me directly on jonathanlee882@email.com"
       );
     });
 }

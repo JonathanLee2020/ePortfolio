@@ -540,6 +540,11 @@ a {
 }
 
 /* Projects */
+
+#projects {
+    display: flex;
+    justify-content: center;
+}
 .section__title {
     text-align: center;
     font-size: 80px;
@@ -640,6 +645,7 @@ footer {
     background-color: #242424;
     color: antiquewhite;
     display: flex;
+    justify-content: center;
 }
 
 

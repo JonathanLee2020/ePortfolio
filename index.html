@@ -24,11 +24,6 @@
 </script>
 </head>
 <body>
-    <div class="slick-slider">
-        <div>Peakhawk</div>
-        <div>Shanks</div>
-        <div>Zoro</div>
-    </div>
     <section id="landing-page" onmousemove="moveBackground(event)">
         <nav>
             <figure data-aos="fade-in" 
@@ -250,13 +245,13 @@
                 >
                 Here are some of my <span class="highlight">projects</span>
                 </h1>
-                    <ul class="project__list slick-slider">
-                        <li class="project" 
+                    <div class="project__list slick-slider"
                         data-aos="fade-left"
                         data-aos-duration="1000"
                         data-aos-once="true"
                         data-aos-delay="1000"
-                        >
+                    >
+                        <div class="project" >
                             <div class="project__wrapper">
                                 <img src="./assets/UltraVerse.png" class="project__img"alt="">
                                 <div class="project__wrapper-background"></div>
@@ -283,13 +278,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="project"
-                        data-aos="fade-right"
-                        data-aos-duration="1000"
-                        data-aos-once="true"
-                        data-aos-delay="1000"
-                        >
+                        </div>
+                        <div class="project">
                             <div class="project__wrapper">
                                 <img src="./assets/React Library.png" class="project__img"alt="">
                                 <div class="project__wrapper-background"></div>
@@ -316,12 +306,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="project"
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                        data-aos-once="true"
-                        data-aos-delay="1000">
+                        </div>
+                        <div class="project">
                             <div class="project__wrapper">
                                 <img src="./assets/twitterCloneInfoGraphic.png" class="project__img"alt="">
                                 <div class="project__wrapper-background"></div>
@@ -347,9 +333,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
+                        </div>
                         
-                    </ul>
+                    </div>
             </div>
         </div>
     </section>

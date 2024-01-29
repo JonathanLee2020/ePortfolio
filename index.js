@@ -1,7 +1,24 @@
+// $(document).ready(function () {
+//   $('.slick-slider').slick({
+//       infinite: true,
+//       slidesToShow: 1,
+//       slidesToScroll: 1,
+//       dots : true,
+//       arrows: true
+//   });
+// });
+
+
+
 let isModalOpen = false;
 const scaleFactor = 1 / 20;
 
+
+console.log("step 1")
+
+
 function moveBackground(event) {
+  console.log("hello")
   const shapes = document.querySelectorAll(".shape");
   const x = event.clientX * scaleFactor;
   const y = event.clientY * scaleFactor;
@@ -18,6 +35,8 @@ function moveBackground(event) {
 
 let contrastToggle = false;
 
+console.log("step 2");
+
 function toggleContrast() {
   contrastToggle = !contrastToggle;
   if (contrastToggle) {
@@ -27,6 +46,9 @@ function toggleContrast() {
     document.body.classList.remove("dark-theme")
   }
 }
+
+console.log("step 3");
+
 
 function contact(event) {
   event.preventDefault();
@@ -49,6 +71,9 @@ function contact(event) {
     });
 }
 
+console.log("step 4");
+
+
 function toggleModal() {
   if (isModalOpen) {
     isModalOpen = false;
@@ -57,3 +82,13 @@ function toggleModal() {
   isModalOpen = true;
   document.body.classList += " modal--open";
 }
+
+$(document).ready(function () {
+  $('.slick-slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots : true,
+      arrows: true
+  });
+});

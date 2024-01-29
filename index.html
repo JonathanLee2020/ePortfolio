@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://kit.fontawesome.com/3c5525aad7.js" crossorigin="anonymous"></script>
     <title>Jonathan Lee ePortfolio</title>
-    <script src = "index.js"></script>
+
+    <!-- carousel text -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- <script src = "index.js"></script> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -19,6 +24,11 @@
 </script>
 </head>
 <body>
+    <div class="slick-slider">
+        <div>Peakhawk</div>
+        <div>Shanks</div>
+        <div>Zoro</div>
+    </div>
     <section id="landing-page" onmousemove="moveBackground(event)">
         <nav>
             <figure data-aos="fade-in" 
@@ -240,7 +250,7 @@
                 >
                 Here are some of my <span class="highlight">projects</span>
                 </h1>
-                    <ul class="project__list">
+                    <ul class="project__list slick-slider">
                         <li class="project" 
                         data-aos="fade-left"
                         data-aos-duration="1000"
@@ -402,5 +412,14 @@
   <script>
     AOS.init();
   </script>
+
+
+<!-- more carousel text -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src = "index.js"></script>
+
+
 </body>
 </html>

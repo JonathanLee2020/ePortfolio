@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,171 +10,143 @@
 
     <!-- carousel text -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 
     <!-- <script src = "index.js"></script> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("AFYPuaJKIMP26vHVm");
-   })();
-</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("AFYPuaJKIMP26vHVm");
+        })();
+    </script>
 </head>
+
 <body>
     <section id="landing-page" onmousemove="moveBackground(event)">
         <nav>
-            <figure data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2700">
+            <figure data-aos="fade-in" data-aos-once="true" data-aos-duration="1000" data-aos-delay="2700">
                 <a href="https://github.com/JonathanLee2020" target="_blank">
-                    <img class="profile click"src="./assets/linkedinProfile.jpeg" alt="">
+                    <img class="profile click" src="./assets/linkedinProfile.jpeg" alt="">
                 </a>
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link click" onclick="toggleModal()"
-                    data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2700"
-                    >
+                <li class="nav__link click" onclick="toggleModal()" data-aos="fade-in" data-aos-once="true"
+                    data-aos-duration="1000" data-aos-delay="2700">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
-                    "
-                    data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2700">
-                    About</a>
+                    " data-aos="fade-in" data-aos-once="true" data-aos-duration="1000" data-aos-delay="2700">
+                        About</a>
                 </li>
-                <li class="nav__link click"
-                    data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2700"
-                    >
+                <li class="nav__link click" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000"
+                    data-aos-delay="2700">
                     <a href="#projects" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li class="nav__link click" onclick="toggleModal()"
-                    data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2700"
-                    >
+                <li class="nav__link click" onclick="toggleModal()" data-aos="fade-in" data-aos-once="true"
+                    data-aos-duration="1000" data-aos-delay="2700">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Contact</a>
                 </li>
-                <li class="nav__link click" onclick="toggleContrast()"
-                    data-aos="fade-in" 
-                    data-aos-once="true"
-                    data-aos-duration="1000"
-                    data-aos-delay="2000">
+                <li class="nav__link click" onclick="toggleContrast()" data-aos="fade-in" data-aos-once="true"
+                    data-aos-duration="1000" data-aos-delay="2000">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
-                    ">  <i class="fa-solid fa-circle-half-stroke"></i>
-                </a>
+                    "> <i class="fa-solid fa-circle-half-stroke"></i>
+                    </a>
                 </li>
-                
+
             </ul>
         </nav>
         <header class="header">
             <div class="header__content">
                 <h1 class="title">
-                <span class="jon">Hey</span>
+                    <span class="jon">Hey</span>
                 </h1>
                 <h1 class="title highlight">
                     <span class="greenFont name">I'm Jonathan</span>
                 </h1>
-                <p class="header__para" 
-                data-aos="fade-up" 
-                data-aos-once="true"
-                data-aos-duration="1000"
-                data-aos-delay="2500"
-                >
-                    I am a <b class="highlight" >Fullstack Developer</b> with expertise in creating visually stunning and user-friendly web applications using the latest technologies and tools.
+                <p class="header__para" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000"
+                    data-aos-delay="2500">
+                    I am a <b class="highlight">Fullstack Developer</b> with expertise in creating visually stunning and
+                    user-friendly web applications using the latest technologies and tools.
                     <br>
                     Here's a bit more <b class="highlight click" onclick="toggleModal()">about me</b>
                 </p>
-                <div class="social__list" 
-                
-                    >
-                    <a href="https://www.linkedin.com/in/jonathanlee2020/" 
-                        class="social__link click" 
-                        target="_blank"
-                    >
-                        <i class="fa-brands fa-linkedin-in" ></i>
+                <div class="social__list">
+                    <a href="https://www.linkedin.com/in/jonathanlee2020/" class="social__link click" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </a>
 
-                    <a href="https://github.com/JonathanLee2020" 
-                        class="social__link click" 
-                        target="_blank"
-                    >
+                    <a href="https://github.com/JonathanLee2020" class="social__link click" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="assets/Resume.pdf" 
-                    class="social__link click"
-                    >
+                    <a href="assets/currResume.pdf" class="social__link click" target="_blank">
                         <i class="fa-solid fa-file-pdf"></i>
                     </a>
                 </div>
             </div>
         </header>
-        <a href="#"
-        data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-delay="2700">
+        <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2700">
             <button class="mail__button click" onclick="toggleModal()">
-            <i class="fa-solid fa-envelope" ></i>
+                <i class="fa-solid fa-envelope"></i>
             </button>
         </a>
-        
-        <a href="#projects" class="scroll" >
-            <div class="scroll__icon click" ></div>
+
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click"></div>
         </a>
         <div class="modal">
             <div class="modal__half modal__about">
-                <h3 class="modal__title modal__title--about" >Here's a bit about me.</h3>
+                <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
                 <h4 class="modal__sub-title modal__sub-title--about"></h4>
-                <p class="modal__para">I'm a <b class="highlight--modal">Fullstack Software Engineering Student</b> with a strong passion for developing websites with enriching user experiences.
-                <br>
-                I am working on extremely difficult engineering problems and enjoy collaborating with others to find the most efficient path to completing these problems.
+                <p class="modal__para">I'm a <b class="highlight--modal">Fullstack Software Engineering Student</b> with
+                    a strong passion for developing websites with enriching user experiences.
+                    <br>
+                    I am working on extremely difficult engineering problems and enjoy collaborating with others to find
+                    the most efficient path to completing these problems.
                 </p>
                 <div class="modal__languages">
-                    
+
                     <figure class="modal__language">
-                        <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="html2">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                            alt="html2">
                         <span class="language__name">HTML</span>
                     </figure>
                     <figure class="modal__language ohio">
-                        <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="css">
+                        <img class="modal__language--img"
+                            src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="css">
                         <span class="language__name">CSS</span>
                     </figure>
                     <figure class="modal__language">
-                        <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="js">
+                        <img class="modal__language--img"
+                            src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="js">
                         <span class="language__name">JavaScript</span>
                     </figure>
                     <figure class="modal__language">
-                        <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React">
                         <span class="language__name">React</span>
                     </figure>
                     <figure class="modal__language">
-                        <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="Typescript">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                            alt="Typescript">
                         <span class="language__name">TypeScript</span>
                     </figure>
                 </div>
@@ -187,18 +160,18 @@
                 <h4 class="modal__sub-title  modal__sub-title--contact">
                     I'm currently open to new opportunities. I'm looking forward to hearing from you!
                 </h4>
-                <form id ="contact__form" onsubmit="contact(event)">
+                <form id="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label" for="name">Name</label>
-                        <input class="input" name = "user_name"type="text" required></input>
+                        <input class="input" name="user_name" type="text" required></input>
                     </div>
                     <div class="form__item">
                         <label class="form__item--label" for="email">Email</label>
-                        <input class="input" name = "user_email"type="email" required></input>
+                        <input class="input" name="user_email" type="email" required></input>
                     </div>
                     <div class="form__item">
                         <label class="form__item--label" for="message">Message</label>
-                        <textarea class="input" name = "message"type="text" required></textarea>
+                        <textarea class="input" name="message" type="text" required></textarea>
                     </div>
                     <button id="contact__submit" class="form__submit">Send it my way</button>
                 </form>
@@ -211,197 +184,188 @@
 
             </div>
             <!-- <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i> -->
-        </div >
+        </div>
         <img src="assets/semi circle.svg" class="shape shape--0" alt="">
-    
+
         <img src="assets/circle.svg" class="shape shape--1" alt="">
-        <img src="assets/squiggly.svg" class="shape shape--2" alt=""
-        >
-        <img src="assets/circle.svg" class="shape shape--3" 
-        >
-        <img src="assets/triangle.svg" class="shape shape--4" 
-        >
-        <img src="assets/circle.svg" class="shape shape--5" 
-        data-aos-duration="1000"
-        >
-        <img src="assets/squiggly.svg" class="shape shape--6" 
-        >
-        <img src="assets/circle.svg" class="shape shape--7" 
-        >
-        <img src="assets/semi circle.svg" class="shape shape--8" 
-        >
+        <img src="assets/squiggly.svg" class="shape shape--2" alt="">
+        <img src="assets/circle.svg" class="shape shape--3">
+        <img src="assets/triangle.svg" class="shape shape--4">
+        <img src="assets/circle.svg" class="shape shape--5" data-aos-duration="1000">
+        <img src="assets/squiggly.svg" class="shape shape--6">
+        <img src="assets/circle.svg" class="shape shape--7">
+        <img src="assets/semi circle.svg" class="shape shape--8">
     </section>
     <section id="projects">
         <div class="container">
             <div class="row">
-                <h1 class="section__title"  
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-                >
-                Here are some of my <span class="highlight">projects</span>
+                <h1 class="section__title" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="250">
+                    Here are some of my <span class="highlight">projects</span>
                 </h1>
-                    <div class="project__list slick-slider"
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                        data-aos-once="true"
-                        data-aos-delay="1000"
-                    >
-                        <div class="project" >
-                            <div class="project__wrapper">
-                                <img src="./assets/UltraVerse.png" class="project__img"alt="">
-                                <div class="project__wrapper-background"></div>
-                                <div class="project__description">
-                                    <h3 class="project__description--title">
-                                        NFT Marketplace
-                                    </h3>
-                                    <h4 class="project__description--sub-title">
-                                       React, Javascript, HTML, CSS
-                                    </h4>
-                                    <p class="project__description--para">
-                                    Ultraverse NFT Marketplace is a cutting-edge platform that offers a seamless experience for exploring and acquiring Non-Fungible Tokens (NFTs). Built with React, alongside animation and carousel libraries, users can Discover popular, new, and top-selling NFTs, explore diverse collections, and access detailed information about pricing, ownership, and creators.
-                                    </p>
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/JonathanLee2020/jonathan-internship" class="project__description--link" target="_blank">
-                                            <i class="fa-brands fa-github"></i>
-                                        </a>
-                                        <a href="https://jonathan-internship-phi.vercel.app/" class="project__description--link" target="_blank">
-                                            <i class="fa-solid fa-link"></i>
-                                        </a>
-                                        <a href="">
+                <div class="project__list slick-slider" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-once="true" data-aos-delay="1000">
+                    <div class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/UltraVerse.png" class="project__img" alt="">
+                            <div class="project__wrapper-background"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    NFT Marketplace
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    React, Javascript, HTML, CSS
+                                </h4>
+                                <p class="project__description--para">
+                                    Ultraverse NFT Marketplace is a cutting-edge platform that offers a seamless
+                                    experience for exploring and acquiring Non-Fungible Tokens (NFTs). Built with React,
+                                    alongside animation and carousel libraries, users can Discover popular, new, and
+                                    top-selling NFTs, explore diverse collections, and access detailed information about
+                                    pricing, ownership, and creators.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/JonathanLee2020/jonathan-internship"
+                                        class="project__description--link" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://jonathan-internship-phi.vercel.app/"
+                                        class="project__description--link" target="_blank">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                    <a href="">
 
-                                        </a>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="project">
-                            <div class="project__wrapper">
-                                <img src="./assets/React Library.png" class="project__img"alt="">
-                                <div class="project__wrapper-background"></div>
-                                <div class="project__description">
-                                    <h3 class="project__description--title">
-                                        ECommerce Library
-                                    </h3>
-                                    <h4 class="project__description--sub-title">
-                                        HTML, CSS, JavaScript, React
-                                    </h4>
-                                    <p class="project__description--para">
-                                        Library is an interactive site built with React to showcase featured and discounted books. Explore a wide selection and sort books according to your preferences, whether by price or rating. Dive into detailed book descriptions and easily add or remove books from your cart.
-                                    </p>
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/JonathanLee2020/React-Library" class="project__description--link">
-                                            <i class="fa-brands fa-github"></i>
-                                        </a>
-                                        <a href="https://react-library-omega.vercel.app/" class="project__description--link" target="_blank">
-                                            <i class="fa-solid fa-link"></i>
-                                        </a>
-                                        <a href="">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project__wrapper">
-                                <img src="./assets/twitterCloneInfoGraphic.png" class="project__img"alt="">
-                                <div class="project__wrapper-background"></div>
-                                <div class="project__description">
-                                    <h3 class="project__description--title">
-                                        Twitter Clone
-                                    </h3>
-                                    <h4 class="project__description--sub-title">
-                                       Nextjs, Redux, Firebase, Tailwind CSS
-                                    </h4>
-                                    <p class="project__description--para">
-                                        A Twitter clone, which uses Firebase to allow image, gif and text posts; commenting on tweets; liking tweets and messaging other users. Users can login via google. It has an accurate, responsive design, powered by Tailwind.
-                                    </p>
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/JonathanLee2020/tclone" class="project__description--link">
-                                            <i class="fa-brands fa-github"></i>
-                                        </a>
-                                        <a href="https://tclone-six.vercel.app/" class="project__description--link" target="_blank">
-                                            <i class="fa-solid fa-link"></i>
-                                        </a>
-                                        <a href="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
+                    <div class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/React Library.png" class="project__img" alt="">
+                            <div class="project__wrapper-background"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    ECommerce Library
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    HTML, CSS, JavaScript, React
+                                </h4>
+                                <p class="project__description--para">
+                                    Library is an interactive site built with React to showcase featured and discounted
+                                    books. Explore a wide selection and sort books according to your preferences,
+                                    whether by price or rating. Dive into detailed book descriptions and easily add or
+                                    remove books from your cart.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/JonathanLee2020/React-Library"
+                                        class="project__description--link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://react-library-omega.vercel.app/" class="project__description--link"
+                                        target="_blank">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                    <a href="">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/twitterCloneInfoGraphic.png" class="project__img" alt="">
+                            <div class="project__wrapper-background"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Twitter Clone
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Nextjs, Redux, Firebase, Tailwind CSS
+                                </h4>
+                                <p class="project__description--para">
+                                    A Twitter clone, which uses Firebase to allow image, gif and text posts; commenting
+                                    on tweets; liking tweets and messaging other users. Users can login via google. It
+                                    has an accurate, responsive design, powered by Tailwind.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/JonathanLee2020/tclone"
+                                        class="project__description--link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://tclone-six.vercel.app/" class="project__description--link"
+                                        target="_blank">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                    <a href="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container footer__container">
             <div class="row footer__row">
-            <figure data-aos="fade-in" 
-            data-aos-once="true"
-            data-aos-duration="300"
-            data-aos-delay="1000">
-                <a href="https://github.com/JonathanLee2020" target="_blank">
-                    <img class="profile footer__logo--img click"src="./assets/linkedinProfile.jpeg" alt="">
-                </a>
-            </figure>
-            <div class="footer__social--list" 
-            >
-                <a href="https://github.com/JonathanLee2020" target="_blank" class="
+                <figure data-aos="fade-in" data-aos-once="true" data-aos-duration="300" data-aos-delay="1000">
+                    <a href="https://github.com/JonathanLee2020" target="_blank">
+                        <img class="profile footer__logo--img click" src="./assets/linkedinProfile.jpeg" alt="">
+                    </a>
+                </figure>
+                <div class="footer__social--list">
+                    <a href="https://github.com/JonathanLee2020" target="_blank" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect
                 link__hover-effect--gold
-                "
-                >
-                Github
-                </a>
-                <a href="https://www.linkedin.com/in/jonathanlee2020/" target="_blank" class="
+                ">
+                        Github
+                    </a>
+                    <a href="https://www.linkedin.com/in/jonathanlee2020/" target="_blank" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect
                 link__hover-effect--gold
-                "
-                >
-                Linkedin
-                </a>
-                <a href="#" onclick="toggleModal()"class="
+                ">
+                        Linkedin
+                    </a>
+                    <a href="#" onclick="toggleModal()" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect
                 link__hover-effect--gold
-                "
-                >
-                Contact
-                </a>
-                <a href="assets/Resume.pdf" target="_blank" class="
+                ">
+                        Contact
+                    </a>
+                    <a href="assets/Resume.pdf" target="_blank" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect
                 link__hover-effect--gold
-                "
-                >
-                <span
-                >Resume</span>
-                </a>
+                ">
+                        <span>Resume</span>
+                    </a>
+                </div>
+                <div class="footer__copyright">Copyright © Jonathan Lee</div>
             </div>
-            <div class="footer__copyright">Copyright © Jonathan Lee</div>
-        </div>
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+        AOS.init();
+    </script>
 
 
-<!-- more carousel text -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src = "index.js"></script>
+    <!-- more carousel text -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="index.js"></script>
 
 
 </body>
+
 </html>
